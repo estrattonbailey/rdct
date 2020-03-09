@@ -6,7 +6,6 @@
   "browser": "dist/rdct.umd.js",
   "module": "dist/rdct.es.js",
   "scripts": {
-    "preinstall": "npx npm-force-resolutions",
     "dev": "microbundle watch",
     "build": "microbundle",
     "precommit": "lint-staged",
